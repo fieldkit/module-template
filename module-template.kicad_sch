@@ -1,0 +1,22 @@
+(kicad_sch (version 20221206) (generator eeschema)
+
+  (uuid 0fe8f37a-a549-417a-a51a-96b485ec4340)
+
+  (paper "USLetter")
+
+  (title_block
+    (title "Module Template")
+    (date "~")
+    (company "Fieldkit")
+    (comment 1 "Bradley Gawthrop")
+    (comment 2 "module-template")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

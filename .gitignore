@@ -1,0 +1,7 @@
+.DS_Store
+fp-info-cache
+*-backups/
+production/
+_autosave*
+\#auto_saved_files\#
+tempchanges.file
