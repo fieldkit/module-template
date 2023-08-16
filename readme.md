@@ -1,8 +1,13 @@
 # Module Template
-This is the README for your freshly initialized project. Explain yourself here!
+This is a template project for creating new FieldKit module hardware in Kicad.
 
-## section
-content
+It Has : 
+* The board outline.
+* A connector to attach it to a FieldKit station.
+* 3.3v Regulation.
+* An EEPROM to identify the module and store any calibration data.
+
+Clone and augment!
 
 ## License Information
 
