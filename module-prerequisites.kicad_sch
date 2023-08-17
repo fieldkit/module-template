@@ -1,0 +1,27 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 1634638e-4daa-4566-b49d-23609db5a0b4)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "3V3" (shape output) (at 267.97 33.02 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 0f359dba-45f5-4ae8-a828-0d7f109a931a)
+  )
+  (hierarchical_label "ENABLE" (shape output) (at 267.97 35.56 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 1004c2e4-078b-43ee-b18a-8f097d3b445b)
+  )
+  (hierarchical_label "SDA" (shape bidirectional) (at 267.97 27.94 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid bbc55970-680e-40b4-98c2-ff4e672698fb)
+  )
+  (hierarchical_label "SCL" (shape bidirectional) (at 267.97 30.48 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ddd27d37-7e46-47be-9194-fd24624aeed2)
+  )
+)
