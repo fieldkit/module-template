@@ -677,7 +677,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2bace5b5-cd6d-4929-8bc5-99a4148c0fb3)
   )
-  (text "HOST-3V3 IS AVAILABLE EVEN WHEN MODULE IS DISABLED.\nUSE WITH CAUTION."
+  (text "HOST-3V3 IS AVAILABLE EVEN WHEN MODULE IS DISABLED\nUSE WITH CAUTION"
     (at 170.18 66.04 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 4becec62-1511-47ff-9c6a-4f23a3232eaf)
