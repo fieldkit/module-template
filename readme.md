@@ -7,7 +7,7 @@ It Has :
 * 3.3v Regulation.
 * An EEPROM to identify the module and store any calibration data.
 
-Clone and augment!
+Just clone and augment!
 
 ## License Information
 
