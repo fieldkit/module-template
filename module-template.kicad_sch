@@ -1,55 +1,96 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 0fe8f37a-a549-417a-a51a-96b485ec4340)
-
-  (paper "A5")
-
-  (title_block
-    (title "Module Template")
-    (date "2023-08-16")
-    (company "Fieldkit")
-    (comment 1 "Bradley Gawthrop")
-    (comment 2 "module-template")
-  )
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 15.24 17.78) (size 22.86 17.78) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid fe6942e6-353b-4bf1-b44b-d10a5b4c0c37)
-    (property "Sheetname" "Module-Prerequisites" (at 15.24 17.0684 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "module-prerequisites.kicad_sch" (at 15.24 36.1446 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "SDA" bidirectional (at 38.1 27.94 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid ff85a0e7-554a-4f82-b835-482d62a99bf7)
-    )
-    (pin "SCL" bidirectional (at 38.1 25.4 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid f4e2bf0a-de88-48ac-b6d6-c18516c6846a)
-    )
-    (pin "3V3" output (at 38.1 31.75 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 18de32d7-325e-49ed-a38e-014174724b05)
-    )
-    (pin "ENABLE" output (at 38.1 21.59 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid c5a95117-cc32-433c-bd49-f8816837d36e)
-    )
-    (instances
-      (project "module-template"
-        (path "/0fe8f37a-a549-417a-a51a-96b485ec4340" (page "2"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0fe8f37a-a549-417a-a51a-96b485ec4340")
+	(paper "A5")
+	(title_block
+		(title "Module Template")
+		(date "2023-08-17")
+	)
+	(lib_symbols)
+	(sheet
+		(at 15.24 17.78)
+		(size 22.86 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fe6942e6-353b-4bf1-b44b-d10a5b4c0c37")
+		(property "Sheetname" "Module-Prerequisites"
+			(at 15.24 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "module-prerequisites.kicad_sch"
+			(at 15.24 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 38.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ff85a0e7-554a-4f82-b835-482d62a99bf7")
+		)
+		(pin "SCL" bidirectional
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f4e2bf0a-de88-48ac-b6d6-c18516c6846a")
+		)
+		(pin "3V3" output
+			(at 38.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "18de32d7-325e-49ed-a38e-014174724b05")
+		)
+		(pin "ENABLE" output
+			(at 38.1 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c5a95117-cc32-433c-bd49-f8816837d36e")
+		)
+		(instances
+			(project "module-template"
+				(path "/0fe8f37a-a549-417a-a51a-96b485ec4340"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
